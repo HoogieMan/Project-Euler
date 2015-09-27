@@ -9,11 +9,12 @@ def PrimeFactorMetaFxn(daNum):
     answer = max_prime_factor(is_prime(list_all_factors(daNum)))
     #is_prime(factorList)
     #return max_prime_factor(primeFactors)
-    print "The answer is " + str(answer)
+    print "The answer is " + str(answer)    
+    return answer         
 ##the below functions work and correctly
 ##generate the test answer (29 for test 13195)
-##however, receiveing an overflow error 'range()
-##result has too many items
+##however, receiving an overflow error 'range()
+##result has too many items'
   
 #def daPrimeFactorMetaFxn(daNum, factorList, primeFactors):
 #    list_all_factors(daNum)
@@ -52,4 +53,4 @@ def max_prime_factor(primeFactors):
     maximumPrime = max(primeFactors)
     #print "maximumPrime is " + str(maximumPrime)
     return maximumPrime
-
+    
